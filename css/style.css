@@ -87,7 +87,7 @@
             opacity: 0;
         }
         5% {
-            transform: translateY(-100%);
+            transform: translateY(-50%);
             opacity: 0;
         }
         15% {
@@ -130,4 +130,9 @@
             padding-bottom: 9px;
             opacity: 1;
         }
+    }
+    
+    .form-group {
+        width: 200px;
+        height: 600px;
     }
