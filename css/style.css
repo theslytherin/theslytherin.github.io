@@ -213,4 +213,9 @@
             position: relative;
             top: -105px;
         }
+        #contact {
+            margin-top: 65%;
+            height: 100vh;
+            background-color: #000000;
+        }
     }
