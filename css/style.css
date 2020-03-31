@@ -178,7 +178,7 @@ p {
     }
 }
 
-. @media all and (max-width:450px) {
+@media all and (max-width:450px) {
     #education {
         margin-top: 65%;
         height: 100vh;
