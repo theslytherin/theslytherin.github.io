@@ -213,6 +213,7 @@
         }
         .col-lg-6 {
             position: relative;
-            top: -55px;
+            top: -105px;
+            font-size: 0.5rem !important;
         }
     }
