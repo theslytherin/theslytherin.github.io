@@ -207,6 +207,7 @@
             margin-left: auto;
             margin-right: auto;
             width: 50%;
+            border-radius: 50%;
             -moz-animation: bounce-3 800ms ease-out;
             -o-animation: bounce-3 800ms ease-out;
             animation: bounce-3 1.2s ease-out;
@@ -214,6 +215,5 @@
         .col-lg-6 {
             position: relative;
             top: -105px;
-            font-size: 0.5rem !important;
         }
     }
