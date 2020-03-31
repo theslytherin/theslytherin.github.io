@@ -1,203 +1,191 @@
-html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    box-sizing: border-box;
-}
+<html lang="en">
 
-body {
-    background-color: #000000;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuska Sinha</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Poppins, Arial, sans-serif;
-    font-weight: 700;
-    line-height: 1.4em;
-    color: #fff;
-}
+<body>
 
-#home {
-    height: 100vh;
-}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light sticky-top" style="background-color: black !important; box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);">
 
-#about {
-    background-color: #000000;
-    height: 100vh;
-}
+        <a href=" "><i class="fa fa-ravelry" style='font-size:2rem;color:#cc0052'></i></a>
+        <a href=" "><i class="fa fa-star-o" style='font-size:1rem;color:black'></i></a>
 
-#about #container .p {
-    font-family: "poppins-bold", "sans-serif";
-    color: ivory;
-    font-size: 60px;
-}
+        <a class="navbar-brand" href="#">theslytherin</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-#education {
-    background-color: #000000;
-    height: 100vh;
-}
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
+            </ul>
 
-#projects {
-    background-color: #000000;
-    height: 100vh;
-}
+        </div>
+    </nav>
+    <br>
+    <section id="home">
+        <br><br><br>
+        <div class="container">
+            <div class="row icon">
+                <div class="col-lg-6 bounce-3">
+                    <br> <img src="images/profile.png" alt="" width="50%">
 
-#contact {
-    height: 100vh;
-    background-color: #000000;
-}
+                </div>
+                <div class=" col-lg-6 " align="center" style="padding-top: 10%;">
+                    <h3 style="font-size: 3rem ; font-weight: bold;">ANUSKA SINHA</h3>
+                    <br>
+                    <p style="font-size: 1.8rem"> Loves to Code, Learn and Explore.</p>
+                    <br><br>
+                    <a href="https://www.facebook.com/anuska.sinha.9678 "><i class="fa fa-facebook "></i></a>
+                    <a href="https://github.com/theslytherin "><i class="fa fa-github "></i></a>
+                    <a href="https://www.linkedin.com/in/anuska-sinha-039002160/ "><i class="fa fa-linkedin "></i></a>
+                    <a href="https://www.instagram.com/_the.slytherin._/?hl=en"><i class="fa fa-instagram "></i></a>
+                    <a href="https://twitter.com/the_slytherin19?s=09 "><i class="fa fa-twitter "></i></a>
+                    <a href="https://theslytherintalks.tech.blog/ "><i class="fa fa-wordpress "></i></a>
 
-#footer .copyright span {
-    display: inline-block;
-}
+                </div>
 
-#footer .copyright span::after {
-    content: "|";
-    display: inline-block;
-    padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.1);
-}
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="about">
+        <br><br><br>
+        <div class="container ">
+            <div id="sectionhead " align="center " style=" opacity: 0.7;
+            text-transform: uppercase;">
+                <h3>ABOUT ME</h3>
+            </div>
+            <br><br><br>
+            <h4>Hello World !</h4>
+            <br><br>
+            <p style="font-size: 22.5px;">
+                <!--I am <strong>Anuska Sinha</strong>, a 2nd Year Undergradute pursuing B.Tech in Information Technology. I am an enthusiatic learner and love to explore new domains.
+                      I am interested in Ethical Hacking, ML, AI and Web Developement.-->
+                I am <strong>Anuska Sinha</strong>, 2nd Year Undergraduate aiming to be a successful IT Professional but a part of me wants to become an Ethical Hacker as I am highly interested in that field. Not only Ethical hacking but Cryptography
+                and Cyber Security as well. Apart from these I am interested in ML, AI and Web Development.<br> I am an enthusiastic learner and love to explore new domains of technology and development.<br> Keeping all this technical interests aside,
+                I love writing blogs,travelling, reading books, listening to music and food.<br> Last but not the least, I love leading a happy life full of thrills and adventures. </p>
+        </div>
+    </section>
 
-#footer .copyright span:last-child::after {
-    display: none;
-}
+    <section id="education">
+        <br><br><br>
 
-p {
-    color: lightgray;
-}
+        <div class="container ">
+            <div id="sectionhead " align="center " style=" opacity: 0.7;
+            text-transform: uppercase;">
+                <h3>Education</h3>
+            </div>
+            <br><br><br>
 
-.bounce-3 img {
-    border-radius: 50%;
-    -webkit-animation: bounce-3 1.2s ease-out;
-    -moz-animation: bounce-3 800ms ease-out;
-    -o-animation: bounce-3 800ms ease-out;
-    animation: bounce-3 1.2s ease-out;
-}
+            <div class="row ">
+                <div class="col-lg-4 ">
+                    <i class="fa fa-bus" style='font-size:2rem;color:#cc0052'></i>
+                    <br><br>
+                    <h6>Secondry School</h6>
+                    <br>
+                    <p>CISCE - ICSE BOARD :<br> G.D.Birla Centre For Education
+                        <br>(2005-2016)
+                        <br>10th grade : 93.25%</p>
+                </div>
+                <div class="col-lg-4 ">
+                    <i class="fa fa-university" style=' font-size:2rem;color:#cc0052 '></i>
+                    <br> <br>
+                    <h6>Higher Secondary</h6>
+                    <br>
+                    <p>CISCE - ICSE BOARD :<br> G.D.Birla Centre For Education
+                        <br>(2016-2018)
+                        <br>12th grade : 94%</p>
+                </div>
+                <div class="col-lg-4 ">
 
-.icon i {
-    margin-left: 5%;
-}
+                    <i class=" fa fa-university " style='font-size:2rem;color:#cc0052 '></i>
+                    <br><br>
+                    <h6>B.Tech - Information Technology</h6><br>
+                    <p>Netaji Subhash Engineering College <br>(2018-2022)<br> Average YGPA : 7.94</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-.icon a {
-    text-decoration: gray;
-    color: lightgray;
-    font-size: x-large;
-}
+    <!-- <section id="projects ">
 
-.icon a:hover {
-    text-decoration: gray;
-    color: orange;
-}
+    </section> -->
+    <section id="contact">
+        <br><br><br>
 
-.nav-link:hover {
-    color: orange !important;
-}
+        <div class="container ">
+            <div id="sectionhead " align="center " style=" opacity: 0.7; text-transform: uppercase; ">
+                <h3>Contact Me</h3>
+            </div>
+            <br><br><br>
 
-.icon {
-    padding-top: 10%;
-}
+            <form action="https://formspree.io/mbjywkqo " method="POST ">
+                <div class="form-group ">
+                    <label for="Name " style="color:#cc0052">Name</label>
+                    <input type="name " name="nm " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Enter Your Name ">
+                </div>
+                <div class="form-group ">
+                    <label for="exampleInputEmail1 " style="color:#cc0052">Email Address</label>
+                    <input type="email " name="ed " class="form-control" id="exampleInputEmail1 " aria-describedby=" emailHelp " placeholder="Enter Your Email ">
+                </div>
+                <div class="form-group ">
+                    <label for="Name " style="color:#cc0052 ">Message</label>
+                    <input type="name " name="msg " class="form-control " id="exampleInputEmail1 " aria-describedby="emailHelp " placeholder="Enter Your Message " style="height:10rem ">
+                </div>
+                <br>
+                <div align="center ">
+                    <button type="submit " class="btn btn-primary" style="margin: 0 auto; background-color: #cc0052;  border-style: none ; border-radius: 20px;">Submit</button>
+                </div>
+            </form>
+            <br><br>
+        </div>
+    </section>
 
-@keyframes bounce-3 {
-    0% {
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-    5% {
-        transform: translateY(-50%);
-        opacity: 0;
-    }
-    15% {
-        transform: translateY(0);
-        padding-bottom: 5px;
-    }
-    30% {
-        transform: translateY(-50%);
-    }
-    40% {
-        transform: translateY(0%);
-        padding-bottom: 6px;
-    }
-    50% {
-        transform: translateY(-30%);
-    }
-    70% {
-        transform: translateY(0%);
-        padding-bottom: 7px;
-    }
-    80% {
-        transform: translateY(-15%);
-    }
-    90% {
-        transform: translateY(0%);
-        padding-bottom: 8px;
-    }
-    95% {
-        transform: translateY(-7%);
-    }
-    97% {
-        transform: translateY(0%);
-        padding-bottom: 9px;
-    }
-    99% {
-        transform: translateY(-3%);
-    }
-    100% {
-        transform: translateY(0);
-        padding-bottom: 9px;
-        opacity: 1;
-    }
-}
+    <section id="footer">
+        <br><br><br>
+        <div class="container">
+            <div id="sectionhead " align="center " style=" opacity: 0.7;
+            text-transform: uppercase;">
+                <div class="copyright">
+                    <span style="color: #ffffff ;">© Copyright 2020 </span>
+                    <span style="color: #ffffff;">Design by <a style="color:#cc0052 ;" href="index.html">Anuska Sinha</a></span>
+                </div>
+            </div>
 
-@media all and (max-width:800px) {
-    .bounce-3 img {
-        width: 40%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        border-radius: 50%;
-        -webkit-animation: bounce-3 1.2s ease-out;
-        -moz-animation: bounce-3 800ms ease-out;
-        -o-animation: bounce-3 800ms ease-out;
-        animation: bounce-3 1.2s ease-out;
-    }
-    #about {
-        margin-top: 25%;
-        height: 100vh;
-    }
-    #education {
-        margin-top: 5%;
-        height: 100vh;
-    }
-    #contact {
-        margin-top: 25%;
-        height: 100vh;
-    }
-}
-
-. @media all and (max-width:450px) {
-    #education {
-        margin-top: 65%;
-        height: 100vh;
-    }
-}
-
-@media all and (max-width:400px) {
-    #education {
-        margin-top: 65%;
-        height: 100vh;
-    }
-}
-
-@media all and (max-width:350px) {
-    #education {
-        margin-top: 115%;
-        height: 100vh;
-    }
-}
+        </div>
+    </section>
 
 
-}
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
+
+</html>
+
+</html>
